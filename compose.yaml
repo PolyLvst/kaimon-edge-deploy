@@ -17,7 +17,6 @@ services:
       - HUB_SYNC_INTERVAL_SECONDS=${HUB_SYNC_INTERVAL_SECONDS:-30}
     restart: unless-stopped
     volumes:
-      - ./data/static:/app/static
       - ./data/db:/app/db
       - ./data/.deepface:/root/.deepface
 

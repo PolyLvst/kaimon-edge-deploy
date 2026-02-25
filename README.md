@@ -28,5 +28,4 @@ See `.env.example` for available environment variables:
 Persistent data is stored in `./data/`:
 
 - `data/db/` — SQLite database
-- `data/static/` — Uploaded images
 - `data/.deepface/` — Face recognition model cache
