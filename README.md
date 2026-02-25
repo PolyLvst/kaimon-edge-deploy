@@ -20,8 +20,8 @@ See `.env.example` for available environment variables:
 |---|---|---|
 | `EDGE_DEVICE_ID` | `edge-1` | Unique identifier for this edge device |
 | `MAIN_HUB_URL` | _(empty)_ | URL of the main Shinkaimon Hub for syncing |
-| `SYNC_INTERVAL_SECONDS` | `30` | Interval for syncing with the hub |
-| `HUB_SYNC_INTERVAL_SECONDS` | `30` | Interval for hub-side sync |
+| `SYNC_INTERVAL_SECONDS` | `30` | Interval for syncing with the hub e.g. upload attendance |
+| `HUB_SYNC_INTERVAL_SECONDS` | `30` | Interval for hub-side sync e.g. pulling users |
 
 ## Data
 
